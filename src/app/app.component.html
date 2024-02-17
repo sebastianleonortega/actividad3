@@ -14,16 +14,13 @@
 
   <div class="content">
 
-    <span>LAST RELEASES</span>
-    <div class="separator"></div>
+    <div class="vid">
+      video
+    </div>
 
+    <span style="font-weight: bold; font-size: 28px; margin: 10px 0">LAST RELEASES</span>
 
-    <div class="vid-games">
-      <div class="vid">
-        video
-      </div>
       <div class="content-games">
-
         <div class="product-card">
           <img src="assets/game1.png" alt="Nombre del Producto">
           <h3>Red dead redemption 2</h3>
@@ -57,15 +54,6 @@
             <span class="star">&#9734;</span>
           </div>
         </div>
-
-      </div>
-
-    </div>
-
-    <div class="vid-games">
-
-      <div class="content-games">
-
         <div class="product-card">
           <img src="assets/game4.png" alt="Nombre del Producto">
           <h3>Assassin's Creed Mirage</h3>
@@ -99,17 +87,89 @@
             <span class="star">&#9734;</span>
           </div>
         </div>
-
+        <div class="product-card">
+          <img src="assets/game7.png" alt="Nombre del Producto">
+          <h3>The Outlast Trials</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/game8.png" alt="Nombre del Producto">
+          <h3>Ark</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/game9.png" alt="Nombre del Producto">
+          <h3>Gears 5</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/game10.png" alt="Nombre del Producto">
+          <h3>Hogwarts Legacy</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+        </div>
       </div>
-      <div class="vid">
-        video
-      </div>
 
-    </div>
+    <a
+      style="display: flex; justify-content: center; cursor: pointer; text-decoration: underline; color: darkslategray">Ver
+      mas ...</a>
 
   </div>
 
   <div class="footer">
+
+    <span style="font-weight: bold; font-size: 28px; margin: 10px 0">NEWS</span>
+
+    <div class="separator"></div>
+
+    <div class="news">
+      <img src="assets/xbox.png" alt="">
+      <div class="content1">
+        <span>Microsoft confirms that four Xbox exclusives will arrive on PlayStation.</span>
+        <br>
+        <p>After a lot of back and forth rumors, Xbox finally decided to address the possibility of their exclusive games coming to other consoles. Last week, much to the dismay of several fans, the rumors gained so much traction that Microsoft decided to discuss the future of Xbox on an official podcast today, with none other than Phil Spencer as a guest. There, the executive confirmed what many had already suspected: four exclusive Xbox games will land on PlayStation</p>
+      </div>
+      <div class="audio">
+        <button (click)="reproduceAudio1()" [disabled]="audioPlaying">PLAY</button>
+      </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="news">
+      <img src="assets/xbox2.png" alt="">
+      <div class="content1">
+        <span>Microsoft itself is already working on the next generation of Xbox.: aiming to achieve "the biggest technical leap" we have ever seen.</span>
+        <br>
+        <p>For a while now, Microsoft has been promoting the concept of accessing Xbox from anywhere. Xbox Play Anywhere allows us to play Xbox titles on Windows computers as well, and Xbox Cloud Gaming breaks down certain access barriers and brings the Xbox experience to almost any device with a good internet connection.</p>
+      </div>
+      <div class="audio">
+        <button (click)="reproduceAudio1()" [disabled]="audioPlaying">PLAY</button>
+      </div>
+    </div>
 
   </div>
 </div>
