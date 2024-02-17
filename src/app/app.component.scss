@@ -13,12 +13,12 @@
     font-weight: 600;
     font-size: 50px;
 
-    p{
+    p {
       display: flex;
       align-items: center;
       margin-left: 20px;
 
-      img{
+      img {
 
         width: 80px;
       }
@@ -26,7 +26,7 @@
 
     .search-bar {
       display: flex;
-      height: 40px;
+      height: 34px;
       margin-right: 20px;
 
       input[type="text"] {
@@ -54,8 +54,61 @@
 
   }
 
-  .content {
+  .banner {
+    img {
+      width: 100%;
+      height: 500px;
+    }
+  }
 
+  .content {
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+    .vid-games {
+      display: flex;
+      margin: 10px;
+      gap: 10px;
+
+      .vid {
+        width: 50%;
+        border:  1px solid red;
+      }
+      .content-games{
+        display: flex;
+        width: 50%;
+        gap: 10px;
+        .product-card {
+          width: 200px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 10px;
+          text-align: center;
+
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+          }
+
+          h3 {
+            margin-bottom: 5px;
+          }
+
+          .rating {
+            color: #FFD700; /* color dorado para las estrellas */
+          }
+
+          .star {
+            font-size: 20px;
+          }
+        }
+
+      }
+
+
+    }
   }
 
   .footer {
@@ -63,3 +116,7 @@
   }
 }
 
+.separator {
+  width: 100%;
+  border: 1px solid black;
+}
