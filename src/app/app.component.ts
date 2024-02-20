@@ -17,7 +17,18 @@ export class AppComponent {
   reproduceAudio1() {
     this.audioPlaying = true;
     const audio = new Audio();
-    audio.src = './assets/sounds/Audio-test-1.mp3';
+    audio.src = './assets/audio/audio.mp3';
+    audio.load();
+    audio.play();
+    audio.onended = () => {
+      this.audioPlaying = false;
+    };
+  }
+
+  reproduceAudio2() {
+    this.audioPlaying = true;
+    const audio = new Audio();
+    audio.src = './assets/audio/audio2.mp3';
     audio.load();
     audio.play();
     audio.onended = () => {
